@@ -1,0 +1,39 @@
+baseURL = "https://vlsidlyarevich.github.io/"
+languageCode = "en-us"
+title = "Pepestic blog"
+theme = "m10c"
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 3
+
+[params]
+    author = "Vladislav Sidlyarevich"
+    avatar = "/images/pepe.jpg"
+    description = "Long live the pepe (and Java of course)"
+
+    [[params.social]]
+        icon = "github"
+        name = "Github"
+        url = "https://github.com/vlsidlyarevich"
+    [[params.social]]
+        icon = "linkedin"
+        name = "Linkedin"
+        url = "https://www.linkedin.com/in/vladislav-sidlyarevich-a068b5124/"
+    [[params.social]]
+        icon = "mail"
+        name = "vlsidlyarevich@gmail.com"
+        url = "https://mail.google.com/mail/?view=cm&fs=1&to=vlsidlyarevich@gmail.com&su=SUBJECT&body=BODY"
