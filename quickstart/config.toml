@@ -2,6 +2,7 @@ baseURL = "https://vlsidlyarevich.github.io/"
 languageCode = "en-us"
 title = "Pepesting blog"
 theme = "m10c"
+googleAnalytics = "G-LR850WP453"
 
 [menu]
     [[menu.main]]
